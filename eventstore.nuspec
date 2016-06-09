@@ -2,28 +2,25 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>iis-arr</id>
-    <title>IIS Application Request Routing (Install)</title>
-    <version>3.0.20160107</version>
-    <authors>Microsoft Inc.</authors>
-    <owners>Microsoft Inc.</owners>
-    <summary>IIS Application Request Routing (ARR)</summary>
-    <description>Microsoft Application Request Routing for IIS is a proxy-based routing module that forwards HTTP requests to application servers based on HTTP headers and server variables, and load balance algorithms
-    </description>
-    <projectUrl>http://www.iis.net/downloads/microsoft/application-request-routing</projectUrl>
+    <id>eventstore</id>
+    <title>EventStore (Install)</title>
+    <version>3.6.2.00006</version>
+    <authors>Event Store LLP</authors>
+    <owners>Event Store LLP</owners>
+    <summary>EventStore for Windows with NSSM service setup</summary>
+    <description>Event storage mechanism for windows with sophisticated projections</description>
+    <projectUrl>https://geteventstore.com/</projectUrl>
 	<packageSourceUrl>https://github.com/bcc/choco-packages</packageSourceUrl>
-    <tags>iis-arr iis arr admin</tags>
-    <copyright></copyright>
-    <licenseUrl>http://go.microsoft.com/?linkid=9835457</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>http://www.microsoft.com/web/media/gallery/apps-screenshots/Microsoft-App-Request-Routing.png</iconUrl>
+    <tags>eventstore event store geteventstore</tags>
+    <copyright>2016 Event Store LLP</copyright>
+    <licenseUrl>https://github.com/EventStore/EventStore/blob/release-v3.6.3/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://pbs.twimg.com/profile_images/525613933504122880/N_PiEzl7.png</iconUrl>
     <dependencies>
-      <dependency id="UrlRewrite" />
-      <dependency id="iis-externalcache" />
+      <dependency id="nssm" />
     </dependencies>
     <releaseNotes> 
-* 3.0.20151123 - first packaging of ARR 3.0
-* 3.0.20160107 - version bump for updated UrlRewrite dependency
+* 3.6.2 - EventStore 3.6.2
     </releaseNotes>
   </metadata>
   <files>

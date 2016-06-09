@@ -1,0 +1,8 @@
+# Filename: serverconfig.yaml
+# Command line version: --db ./db --log ./logs --run-projections=ALL --ext-ip=0.0.0.0 --ext-http-prefixes=http://*:2113/
+---
+Db: ./db 
+Log: ./logs
+RunProjections: All
+ExtHttpPrefixes: ['http://*:2113/']
+ExtIp: 0.0.0.0
